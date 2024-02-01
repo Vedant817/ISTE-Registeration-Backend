@@ -11,7 +11,7 @@ dotenv.config({
 });
 const port = 3000;
 
-app.use('/', registerRoute);
+app.use('/register', registerRoute);
 
 connectDB().then(() => {
     app.listen(port, () => {
