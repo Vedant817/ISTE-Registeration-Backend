@@ -7,6 +7,7 @@ import FallacyRegistration from '../controllers/fallacy.controller.js';
 
 const router = Router();
 
+//Register API format : /register/event_name
 router.route('/reckon').post(ReckonRegistration);
 router.route('/circuitrix').post(CircuitrixRegistration);
 router.route('/buzzinga').post(BuzzingaRegistration);
