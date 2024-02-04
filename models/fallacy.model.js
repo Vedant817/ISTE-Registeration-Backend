@@ -26,19 +26,16 @@ const fallacySchema = new Schema({
         maxlength : 10
     },
     member2Name: {
-        require : true,
         type: String,
         lowercase: true,
         trim: true
     },
     member2Email: {
-        require : true,
         type: String,
         lowercase: true,
         trim: true
     },
     member2Phone: {
-        require : true,
         type: String,
         minlength : 10,
         maxlength : 10
