@@ -6,10 +6,10 @@ const fallacyRegistration = async (req,res)=>{
         const {teamName, member1Name, member1Email, member1Phone, member2Name, member2Email, member2Phone} = req.body;
         const team =new Fallacy({teamName, member1Name, member1Email, member1Phone, member2Name, member2Email, member2Phone});
         const savedTeam = await team.save();
-        res.status(201).json({message: 'Registered Successfully!!'});
+        res.status(201).json({status: true,message: 'Registered Successfully!!'});
     } catch (error) {
         console.log(error);
-        res.status(500).json({message: 'Registration Failed!!'});
+        res.status(500).json({status:false, message: 'Registration Failed!!'});
     }
 }
 
