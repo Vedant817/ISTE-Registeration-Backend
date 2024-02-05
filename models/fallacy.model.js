@@ -37,7 +37,6 @@ const fallacySchema = new Schema({
     },
     member2Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10
     }
 })

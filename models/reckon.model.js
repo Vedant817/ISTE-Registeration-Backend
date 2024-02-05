@@ -39,7 +39,6 @@ const reckonSchema = new Schema({
     },
     member2Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10,
         require:true
     },
@@ -57,7 +56,6 @@ const reckonSchema = new Schema({
     },
     member3Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10,
         require:true
     },
@@ -73,7 +71,6 @@ const reckonSchema = new Schema({
     },
     member4Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10
     }
 })

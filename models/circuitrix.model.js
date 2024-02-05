@@ -37,7 +37,6 @@ const circuitrixSchema = new Schema({
     },
     member2Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10
     },
     member3Name: {
@@ -52,7 +51,6 @@ const circuitrixSchema = new Schema({
     },
     member3Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10
     },
     member4Name: {
@@ -67,7 +65,6 @@ const circuitrixSchema = new Schema({
     },
     member4Phone: {
         type: String,
-        minlength : 10,
         maxlength : 10
     }
 })

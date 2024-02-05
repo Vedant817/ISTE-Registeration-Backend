@@ -38,7 +38,6 @@ const buzzingaSchema = new Schema({
     member2Phone: {
         require : true,
         type: String,
-        minlength : 10,
         maxlength : 10
     },
     member3Name: {
@@ -54,7 +53,6 @@ const buzzingaSchema = new Schema({
     member3Phone: {
         require : true,
         type: String,
-        minlength : 10,
         maxlength : 10
     },
     member4Name: {
@@ -70,7 +68,6 @@ const buzzingaSchema = new Schema({
     member4Phone: {
         require : true,
         type: String,
-        minlength : 10,
         maxlength : 10
     }
 })
