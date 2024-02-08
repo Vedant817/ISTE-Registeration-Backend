@@ -45,31 +45,14 @@ const reckonSchema = new Schema({
     member3Name: {
         type: String,
         lowercase: true,
-        trim: true,
-        require:true
+        trim: true
     },
     member3Email: {
         type: String,
         lowercase: true,
-        trim: true,
-        require:true
+        trim: true
     },
     member3Phone: {
-        type: String,
-        maxlength : 10,
-        require:true
-    },
-    member4Name: {
-        type: String,
-        lowercase: true,
-        trim: true
-    },
-    member4Email: {
-        type: String,
-        lowercase: true,
-        trim: true
-    },
-    member4Phone: {
         type: String,
         maxlength : 10
     }
